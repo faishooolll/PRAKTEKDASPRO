@@ -10,6 +10,8 @@ public class ifCetakKrs02{
         if (uktLunas){
             System.out.println("pEMBAYARAN uKT Sudah Lunas");
             System.out.println("Silahkan Cetak Krs dan minta tanda tangan DPA");
+        }else{
+            System.out.println("Registrasi ditolak. Silakan lunasi UKT terlebih dahulu");
         }
         sc.close();
     }
