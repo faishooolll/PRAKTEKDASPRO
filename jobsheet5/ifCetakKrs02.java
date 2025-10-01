@@ -6,6 +6,7 @@ public class ifCetakKrs02{
         System.out.println("--- Cetak KRS Siakad ---");
         System.out.print("Apakah ukt sudah lunas? (true/false): ");
         boolean uktLunas = sc.nextBoolean();
+        System.out.println("halo");
 
         if (uktLunas){
             System.out.println("pEMBAYARAN uKT Sudah Lunas");
